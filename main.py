@@ -32,4 +32,5 @@ img = Image.open(BytesIO(response.content))
 np_img = np.asarray(img)
 # Could do something with numpy here.
 img = Image.fromarray(np.uint8(np_img))
+# show image
 img.show()
